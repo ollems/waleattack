@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+build_win/
+dist/
+dist_win/
+release/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Large Release archives and pre-built binaries (uploaded via GitHub Releases)
+*.tar.gz
+*.tar.gz.sha256
+*.zip
+*.zip.sha256
+*.exe
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+.cache/
+
+# Environments / IDEs
+.env
+.venv
+env/
+venv/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Wine & temporary data
+.wine/
+*.log
+*.tmp
+hid_events.log
+profiles.json
+
+# OS generated
+.DS_Store
+Thumbs.db

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "waleattack"
+version = "1.0.0"
+description = "Gerenciador e software de configuração para mouses gaming (Linux e Windows)"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+waleattack = "waleattack.gui:main"
+waleattack-cli = "waleattack.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
